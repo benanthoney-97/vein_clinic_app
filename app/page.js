@@ -3,12 +3,12 @@ import React, { useState, useEffect } from "react";
 import Script from "next/script";
 
 export default function VoicePage() {
-  const agentId = process.env.NEXT_PUBLIC_ELEVENLABS_AGENT_ID || "agent_3501k3v27092erv8bz40nm47p6he";
-  const heroLogo = process.env.NEXT_PUBLIC_BRAND_LOGO_URL || "https://ielaigfiyikzxqecyplz.supabase.co/storage/v1/object/public/business_logos/Batch_Logotype_1.avif";
-  const headerLogo = process.env.NEXT_PUBLIC_HEADER_LOGO_URL || "https://ielaigfiyikzxqecyplz.supabase.co/storage/v1/object/public/UI_elements/Frame_5-removebg-preview.png";
-  const businessName = process.env.NEXT_PUBLIC_BRAND_NAME || "Batch";
+  const agentId = process.env.NEXT_PUBLIC_ELEVENLABS_AGENT_ID || "agent_3001k45twex4e80a6ax43gfgxh1r";
+  const heroLogo = process.env.NEXT_PUBLIC_BRAND_LOGO_URL || "https://aigtrvecjglsbqqzqige.supabase.co/storage/v1/object/public/website_images/ukvc.png";
+  const headerLogo = process.env.NEXT_PUBLIC_HEADER_LOGO_URL || "";
+  const businessName = process.env.NEXT_PUBLIC_BRAND_NAME || "UK Vein Clinic (Varicose Veins Demo)";
   const businessTagline =
-    process.env.NEXT_PUBLIC_BRAND_TAGLINE || "Casual Suits Made in LDN. Just for you.";
+    process.env.NEXT_PUBLIC_BRAND_TAGLINE || "Patient support assistant for varicose veins education and treatment questions.";
 
   const links = [
     { label: "Get a quote", href: "#" },
@@ -161,7 +161,7 @@ export default function VoicePage() {
              starts near top (larger gap to reduce height) and reaches bottom */
         .container {
           width: 100%;
-          background: #2b3040 !important;  /* ensure not overridden */
+          background: #006A6A !important;  /* ensure not overridden */
           color: var(--text-blue);
           display: flex;
           flex-direction: column;
@@ -357,7 +357,7 @@ export default function VoicePage() {
             border-top-right-radius: 22px;
             padding: 24px 24px 56px;
             box-shadow: 0 18px 48px rgba(12, 113, 195, 0.22);
-            background: #2b3040;
+            background: #006A6A;
           }
         }
       `}</style>

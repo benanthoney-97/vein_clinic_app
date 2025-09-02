@@ -1,4 +1,4 @@
-// File: /Users/benanthoney/Desktop/batchldn_app/app/page.js
+// File: /Users/benanthoney/Desktop/vein_clinic_app/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
